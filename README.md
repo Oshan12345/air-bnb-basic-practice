@@ -1,6 +1,19 @@
 # Getting Started with Create React App
-
+# date picker - https://www.npmjs.com/package/react-date-range
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# air-bnb-basic-practice
+
+## basically doing this project for practice purpose. 
+
+### features:
+
+protected route
+login functionality using google. Some others can be implemented.
+In server site some firebase admin functionalities are used for validation purpose.
+Users can see booking information.
+
+
 
 ## Available Scripts
 
