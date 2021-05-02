@@ -22,6 +22,10 @@ const Header = () => {
           <Link to="/">Home</Link>
         </div>
         <div>
+          <Link to="/admin"> Admin Dashboard</Link>
+        </div>
+
+        <div>
           <div className="search_box">
             <input type="text" />
             <SearchIcon />

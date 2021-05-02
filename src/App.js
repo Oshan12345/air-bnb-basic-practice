@@ -12,6 +12,7 @@ import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import firebase from "firebase/app";
 import BookingInfo from "./Components/BookingInfo/BookingInfo";
 import { userToken } from "./Components/Authentication/firebaseFunctionality";
+import AdminPanel from "./Components/AdminPanel/AdminPanel";
 export const UserContext = createContext();
 function App() {
   const [user, setUser] = useState({});
@@ -45,6 +46,9 @@ function App() {
 
             <PrivateRoute path="/bookings">
               <BookingInfo />
+            </PrivateRoute>
+            <PrivateRoute path="/admin">
+              <AdminPanel />
             </PrivateRoute>
             {/* <Route path="/product-details/:slug" component={ProductDetails} /> */}
             <Route path="/signup" component={Signin} />
